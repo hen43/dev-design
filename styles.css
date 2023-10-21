@@ -15,28 +15,27 @@ body{
 
 #introBox{
     background-color: white;
-    height:50rem;
+    height:90vw;
     font-family: "Lato", sans-serif;
-    flex-direction: row;
 }
 
 #introContents{
-    width:90rem;
-    height:31rem;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    width:90vw;
+    height:31vw;
 }
 
-#introImage{
-    background-image: url("content/image.jpg");
-    width:40rem;
-    height:27rem;
-    border-radius: 5rem;
-    margin:2rem;
+img{
+    width:40vw;
+    height:27vw;
+    border-radius: 5vw;
+    margin:2vw;
+}
+
+#introText{
+    max-width: 35vw;
 }
 
 #introHeading{
-    width:40rem;
-    height:10rem;
+    width:40vw;
+    height:10vw;
 }
